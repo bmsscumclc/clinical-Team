@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumilla Medical College Clinical Rotation Teams</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .team-table th, .team-table td {
+            border: 1px solid #e5e7eb;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        .team-table th {
+            background-color: #005662;
+            color: white;
+        }
+        .fourth-fifth {
+            background-color: #E6F0FA;
+        }
+        .third {
+            background-color: #E6F5E6;
+        }
+        .second {
+            background-color: #F5F5F5;
+        }
+        .top-role {
+            font-weight: bold;
+            background-color: #FFFF99;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-teal-900 text-white sticky top-0 z-10 py-4">
+        <nav class="container mx-auto flex justify-center space-x-6">
+            <a href="#home" class="hover:underline font-bold" aria-label="Home">Home</a>
+            <a href="#teams" class="hover:underline font-bold" aria-label="Teams">Teams</a>
+            <a href="#about" class="hover:underline font-bold" aria-label="About">About</a>
+            <a href="#contact" class="hover:underline font-bold" aria-label="Contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero bg-cover bg-center py-16 text-center text-white" style="background-image: url('https://images.unsplash.com/photo-1576092760000-2a70f12e5c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80')" aria-label="Medical team background">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 text-shadow">Cumilla Medical College Clinical Rotation Teams 2025</h1>
+        <a href="#teams" class="bg-teal-600 text-white py-2 px-4 rounded-md hover:bg-teal-700">Meet Our Teams</a>
+    </section>
+    <section id="teams" class="container mx-auto py-8">
+        <div class="mb-8 text-center">
+            <input type="text" id="searchInput" placeholder="Search by name or expertise..." class="w-full max-w-md p-2 border border-gray-300 rounded-md" onkeyup="searchTeams()">
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Hippocrates</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Sharna Saha</td><td>4th/5th</td><td class="top-role">LCC</td></tr>
+                    <tr class="fourth-fifth"><td>Fabiha Musharrat</td><td>4th/5th</td><td>EA LO</td></tr>
+                    <tr class="fourth-fifth"><td>Maher Mohammod</td><td>4th/5th</td><td>TSD LO</td></tr>
+                    <tr class="fourth-fifth"><td>Md. Jihadul Islam</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>A. Rahman Mahid</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Ariful Islam Sayem</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="third"><td>Riajul Abedin Rahim</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Fatima Kubbatus Sakhra</td><td>3rd</td><td>Community Volunteering</td></tr>
+                    <tr class="third"><td>Jannatul Maowa</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Ishmat Maksura Pushpita</td><td>2nd</td><td>Public Speaking</td></tr>
+                    <tr class="second"><td>Hasin Arman Wasif</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Hredeta Deb Nath</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Sanjida Mazumder</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Miftahul Nur Mim</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Mohammad Sajid Islam Bhuiyan</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Ramiza Binte Kamal</td><td>2nd</td><td>Community Volunteering</td></tr>
+                    <tr class="second"><td>Shahidur Rahman Siyam</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Tabassum Tanzim Prome</td><td>2nd</td><td>None</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Asclepius</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Asif Mohammad Yousuf</td><td>4th/5th</td><td class="top-role">LCP</td></tr>
+                    <tr class="fourth-fifth"><td>Zareen Tasneem</td><td>4th/5th</td><td>PRC LO</td></tr>
+                    <tr class="fourth-fifth"><td>Shefa Umme Salma Susmita</td><td>4th/5th</td><td>LOME</td></tr>
+                    <tr class="fourth-fifth"><td>Md Abid Hossen Jamil</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Rihan Riyad</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Md. Mazharul Islam</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="third"><td>Maruf Hasan</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Shifa Moni</td><td>3rd</td><td>Community Volunteering</td></tr>
+                    <tr class="third"><td>Sumaiya Nowshin Sanjia</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Juairia Taiyeba</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Mumtahin Udita</td><td>2nd</td><td>Public Speaking</td></tr>
+                    <tr class="second"><td>Nuzhat Samiha Sayed Rodra</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Jannatul Mawa Bizli</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Disha Protiti Das</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Marufa Akter Suma</td><td>2nd</td><td>None</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Galen</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Shabbir Bin Enam</td><td>4th/5th</td><td class="top-role">LCS</td></tr>
+                    <tr class="fourth-fifth"><td>Nowshin Rashid</td><td>4th/5th</td><td>PRC LO</td></tr>
+                    <tr class="fourth-fifth"><td>Ahsan Jobair Saiem</td><td>4th/5th</td><td>LOME</td></tr>
+                    <tr class="fourth-fifth"><td>Samia Islam</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Afrida Sultana</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Rick Biswas</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="third"><td>Aziza Tabassum Sadia</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Abida Sultana</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Md.Nazmul Hasan</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Nishat Salsabil Dora</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Nahian Tahsin Mrittika</td><td>2nd</td><td>Community Volunteering</td></tr>
+                    <tr class="second"><td>Subrina Mahmud</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Sumyea Yeasmin</td><td>2nd</td><td>Community Volunteering</td></tr>
+                    <tr class="second"><td>Sadia Akter Mim</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Kishoya Khan Jerin</td><td>2nd</td><td>None</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Stethoscope</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Fatema Akter</td><td>4th/5th</td><td class="top-role">LCS</td></tr>
+                    <tr class="fourth-fifth"><td>Md Muhitul Alam</td><td>4th/5th</td><td>PRC LO</td></tr>
+                    <tr class="fourth-fifth"><td>Md Rakibul Belal Remon</td><td>4th/5th</td><td>LOME</td></tr>
+                    <tr class="fourth-fifth"><td>Rabeya Khatun Hridiya</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Shanta Islam</td><td>4th/5th</td><td>Associate</td></tr>
+                    <tr class="fourth-fifth"><td>Kowser Jahan Leja</td><td>4th/5th</td><td>LOME</td></tr>
+                    <tr class="third"><td>Shayon Chakraborty</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Muhammad Saad Khan</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>M.S.H Parvez</td><td>3rd</td><td>Social Work</td></tr>
+                    <tr class="second"><td>Sayeda Sultana Samia</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Mareya Hossain</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Joyee Naha</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Punam Chowdhury</td><td>2nd</td><td>Research</td></tr>
+                    <tr class="second"><td>Umme Hafsa</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Hasnatul Jannat</td><td>2nd</td><td>None</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Neuron</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Hasin Wadud</td><td>4th/5th</td><td class="top-role">Liaison</td></tr>
+                    <tr class="fourth-fifth"><td>Md Robiul Hasan</td><td>4th/5th</td><td>PRC LO</td></tr>
+                    <tr class="fourth-fifth"><td>Rubayat Amin Ruhee</td><td>4th/5th</td><td>LEO</td></tr>
+                    <tr class="fourth-fifth"><td>Farjana Mim</td><td>4th/5th</td><td>LORP</td></tr>
+                    <tr class="fourth-fifth"><td>Sheikh Mehedi Hasan</td><td>4th/5th</td><td>LORP</td></tr>
+                    <tr class="fourth-fifth"><td>Abdur Rahman</td><td>4th/5th</td><td>LEO</td></tr>
+                    <tr class="third"><td>Namsum Dradok</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>A K M Tahmid Alam Kabbo</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Sumaiya Noor Shonchita</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Athoy Chowdhury</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Iffat Jahan Wasima</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Nidhi Hasan</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Pronami Ghosh</td><td>2nd</td><td>Research</td></tr>
+                    <tr class="second"><td>Vaswati Bhowmik</td><td>2nd</td><td>Community Volunteering</td></tr>
+                    <tr class="second"><td>Tahmin Mahmud</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Noshin Anjum Ava</td><td>2nd</td><td>Public Speaking</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Synapse</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Saiful Islam</td><td>4th/5th</td><td class="top-role">LFO</td></tr>
+                    <tr class="fourth-fifth"><td>Sanjida Islam</td><td>4th/5th</td><td>LEO</td></tr>
+                    <tr class="fourth-fifth"><td>Tanjim Moriam Choa</td><td>4th/5th</td><td>LPO</td></tr>
+                    <tr class="fourth-fifth"><td>Samia Sultana</td><td>4th/5th</td><td>LORE</td></tr>
+                    <tr class="fourth-fifth"><td>Arpita Deb Purkayastha</td><td>4th/5th</td><td>LORE</td></tr>
+                    <tr class="fourth-fifth"><td>Tahsin Rouf</td><td>4th/5th</td><td>LORE</td></tr>
+                    <tr class="third"><td>Fardin Shariar</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Arpita Devi</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Farhana Alamgir Puspita</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Sifat Bin Sharif</td><td>2nd</td><td>Social Media</td></tr>
+                    <tr class="second"><td>Sumaiya Akter Shimu</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Fairuz Humaira Munni</td><td>2nd</td><td>Public Speaking</td></tr>
+                    <tr class="second"><td>Sayka Tanzim</td><td>2nd</td><td>Public Speaking</td></tr>
+                    <tr class="second"><td>Meftaul Jannat Pritu</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Nazifa Yasmin Nazah</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Sumaiya Akter</td><td>2nd</td><td>None</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Caduceus</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Nazia Nuzhat</td><td>4th/5th</td><td class="top-role">LFO</td></tr>
+                    <tr class="fourth-fifth"><td>Sanjana Shaherin</td><td>4th/5th</td><td>LEO</td></tr>
+                    <tr class="fourth-fifth"><td>Shakil Ahmed Turjo</td><td>4th/5th</td><td>LPO</td></tr>
+                    <tr class="fourth-fifth"><td>Tayeba Jahan Mohima</td><td>4th/5th</td><td>LPO</td></tr>
+                    <tr class="fourth-fifth"><td>Afsana Rahman</td><td>4th/5th</td><td>LORA</td></tr>
+                    <tr class="fourth-fifth"><td>Debapriya Bhattacharjee Arpa</td><td>4th/5th</td><td>LORA</td></tr>
+                    <tr class="third"><td>Samia Ahasan Roksana</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Tahsin Habib</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Azmain Ahbab</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Sadeka Tasneem</td><td>2nd</td><td>Social Media</td></tr>
+                    <tr class="second"><td>Sanjana Nishi</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Maysha Afrin</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Shanzida Sharkar Rafa</td><td>2nd</td><td>Public Speaking</td></tr>
+                    <tr class="second"><td>Faiaz Abrar</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Fariha Jannat</td><td>2nd</td><td>Graphic Design</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="team-card bg-white rounded-lg shadow-md mb-6 p-6">
+            <h2 class="text-2xl font-bold text-teal-900 mb-4">Team Sphygmomanometer</h2>
+            <table class="team-table w-full">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Academic Year</th>
+                        <th>Role/Expertise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="fourth-fifth"><td class="top-role">Kazi Ifaz Ahmed</td><td>4th/5th</td><td class="top-role">EA LO</td></tr>
+                    <tr class="fourth-fifth"><td>Asif Bin Hashem</td><td>4th/5th</td><td>EA LO</td></tr>
+                    <tr class="fourth-fifth"><td>Fahima Sultana</td><td>4th/5th</td><td>EA LO</td></tr>
+                    <tr class="fourth-fifth"><td>Robin Shill</td><td>4th/5th</td><td>TSD LO</td></tr>
+                    <tr class="fourth-fifth"><td>Rajoshree Paul</td><td>4th/5th</td><td>TSD LO</td></tr>
+                    <tr class="fourth-fifth"><td>Nafisa Hakim</td><td>4th/5th</td><td>TSD LO</td></tr>
+                    <tr class="fourth-fifth"><td>Fariha Tabassum</td><td>4th/5th</td><td>LORA</td></tr>
+                    <tr class="fourth-fifth"><td>Mahbuba Mojib Surayea</td><td>4th/5th</td><td>LORA</td></tr>
+                    <tr class="fourth-fifth"><td>Mushrat Mujib</td><td>4th/5th</td><td>LORP</td></tr>
+                    <tr class="third"><td>Khalid Bin Arif</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Ismamul Alam Tasauf</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Mahir Hossain Almas</td><td>3rd</td><td>None</td></tr>
+                    <tr class="third"><td>Md Zamilur Rahman</td><td>3rd</td><td>None</td></tr>
+                    <tr class="second"><td>Suhana Atik</td><td>2nd</td><td>Social Media</td></tr>
+                    <tr class="second"><td>Sanjida Akter Shormi</td><td>2nd</td><td>Community Volunteering</td></tr>
+                    <tr class="second"><td>Suchona Akter</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Tanzina Tahmin Tahi</td><td>2nd</td><td>None</td></tr>
+                    <tr class="second"><td>Abrar Afifa Rabi</td><td>2nd</td><td>Event Management</td></tr>
+                    <tr class="second"><td>Mashiat Mahajabin</td><td>2nd</td><td>Public Speaking</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer class="bg-teal-900 text-white text-center py-4">
+        <p>© 2025 Cumilla Medical College. All rights reserved.</p>
+    </footer>
+    <script>
+        function searchTeams() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let cards = document.getElementsByClassName('team-card');
+            for (let card of cards) {
+                let rows = card.getElementsByTagName('tr');
+                let found = false;
+                for (let row of rows) {
+                    let cells = row.getElementsByTagName('td');
+                    for (let cell of cells) {
+                        if (cell && cell.textContent.toLowerCase().includes(input)) {
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (found) break;
+                }
+                card.style.display = found ? '' : 'none';
+            }
+        }
+    </script>
+</body>
+</html>
